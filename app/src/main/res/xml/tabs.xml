@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <tabs>
+        <tab
+            icon="R.mipmap.tab_home_bottom_shouye"
+            id="@+id/tab_shouye"
+            />
+        <tab
+            icon="R.mipmap.tab_home_bottom_shouye"
+            id="@+id/tab_all"
+            />
+        <tab
+            icon="R.mipmap.tab_home_bottom_shouye"
+            id="@+id/tab_cart"
+            />
+        <tab
+            icon= "R.mipmap.tab_home_bottom_wode"
+            id="@+id/tab_account"
+             />
+    </tabs>
+
+</PreferenceScreen>

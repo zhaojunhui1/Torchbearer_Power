@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_135"
+    android:layout_height="@dimen/dp_160"
+    android:layout_margin="@dimen/dp_5"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_150"
+        android:background="@drawable/rxxp_shape"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simple_image"
+            android:layout_width="@dimen/dp_85"
+            android:layout_height="@dimen/dp_95"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/rxxp_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数据"
+            android:textSize="@dimen/dp_12"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#666666"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+        <TextView
+            android:id="@+id/rxxp_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数据"
+            android:textSize="@dimen/dp_14"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:padding="@dimen/dp_5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_151"
+    android:layout_height="@dimen/dp_174"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp_5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_141"
+        android:layout_height="@dimen/dp_161"
+        android:background="@drawable/rxxp_shape"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/pzsh_simple"
+            android:layout_width="@dimen/dp_130"
+            android:layout_height="@dimen/dp_102"
+            android:background="@drawable/shape_common"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/pzsh_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数据"
+            android:textSize="@dimen/dp_12"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="#666666"
+            />
+        <TextView
+            android:id="@+id/pzsh_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数据"
+            android:textSize="@dimen/dp_14"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:padding="@dimen/dp_8"
+            />
+    </LinearLayout>
+
+</LinearLayout>
